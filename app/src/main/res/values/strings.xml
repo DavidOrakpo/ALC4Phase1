@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ALC 4 Phase 1</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_name">Welcome to AlC 4.0</string>
+    <string name="aboutALC">About ALC</string>
+    <string name="profile">My Profile</string>
+    <string name="title_activity_about_alc">AboutALC</string>
+    <string name="title_activity_my_profile">MyProfile</string>
+    <string name="profile_image">profile image</string>
+    <string name="my_name">David Orakpo</string>
+    <string name="track_name">Track:\u0020 \u0020 \u0020   \u0020 Android</string>
+    <string name="country_name">Country: \u0020  \u0020     Nigeria</string>
+    <string name="email_name">Email:  \u0020  \u0020  \u0020  \u0020 davidorakpo65@gmail.com</string>
+    <string name="phone_number">Phone Number:  \u0020  \u0020  \u0020   08029214383</string>
+    <string name="slack_username">Slack Username:  \u0020  \u0020  @DavidOrakpo</string>
+</resources>
