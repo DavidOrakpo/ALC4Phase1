@@ -11,6 +11,7 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.view.View;
 import android.webkit.SslErrorHandler;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
@@ -24,6 +25,8 @@ public class AboutALC extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         WebView webview = findViewById(R.id.web_andela);
+        WebSettings websettings = webview.getSettings();
+        websettings.setJavaScriptEnabled(true);
         webview.setWebViewClient(new WebViewClient(){
             @Override
             public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error) {
